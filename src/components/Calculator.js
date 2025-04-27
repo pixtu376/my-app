@@ -1,9 +1,9 @@
 import React from 'react'
 import { useForm } from 'react-hook-form'
-import { RadioGroup, TextInput } from './components/FormInputs'
-import './Styles/Kalkulate.css'
+import { RadioGroup, TextInput } from './FormInputs'
+import '../Styles/Kalkulate.css'
 
-function Kalkulate() {
+function Calculator() {
   const {
     register,
     control,
@@ -253,4 +253,4 @@ function Kalkulate() {
   )
 }
 
-export default Kalkulate
+export default Calculator

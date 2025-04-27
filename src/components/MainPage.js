@@ -1,15 +1,15 @@
 import React from 'react'
-import './Styles/PageMain.css'
-import SecondPhoto from './Image/BackSecond.png'
-import Firste from './Image/Firste.png'
-import Seconde from './Image/Seconde.png'
-import Therde from './Image/Therde.png'
-import MainIconFirst from './Image/MainIconFirst.png'
-import MainIconSecond from './Image/MainIconSecond.png'
-import MainIconThird from './Image/MainIconThird.png'
-import MainIconFour from './Image/MainIcoFour.png'
+import '../Styles/PageMain.css'
+import SecondPhoto from '../Image/BackSecond.png'
+import Firste from '../Image/Firste.png'
+import Seconde from '../Image/Seconde.png'
+import Therde from '../Image/Therde.png'
+import MainIconFirst from '../Image/MainIconFirst.png'
+import MainIconSecond from '../Image/MainIconSecond.png'
+import MainIconThird from '../Image/MainIconThird.png'
+import MainIconFour from '../Image/MainIcoFour.png'
 
-function PageMain() {
+function MainPage() {
 	return (
 		<div className='PageMain'>
 			<main>
@@ -67,45 +67,45 @@ function PageMain() {
 					</div>
 					<div className='MainContainer'>
 						<h2>Причины по которым вы должны обратиться именно к нам</h2>
-						<div class='reasons'>
-							<div class='reason'>
-								<div class='reason__icon'>
+						<div className='reasons'>
+							<div className='reason'>
+								<div className='reason__icon'>
 									<img src={MainIconFirst} alt=''></img>
 								</div>
-								<h3 class='reason__title'>Решение</h3>
+								<h3 className='reason__title'>Решение</h3>
 								<p className='text'>
 									Мы решаем даже самые сложные и безнадежные дела, от которых
 									отказались другие. Решение есть всегда.
 								</p>
 							</div>
 
-							<div class='reason'>
-								<div class='reason__icon'>
+							<div className='reason'>
+								<div className='reason__icon'>
 									<img src={MainIconSecond} alt=''></img>
 								</div>
-								<h3 class='reason__title'>Доступность</h3>
+								<h3 className='reason__title'>Доступность</h3>
 								<p className='text'>
 									Доступны 24/7, включая выходные и праздники. Поможем в любое
 									время.
 								</p>
 							</div>
 
-							<div class='reason'>
-								<div class='reason__icon'>
+							<div className='reason'>
+								<div className='reason__icon'>
 									<img src={MainIconThird} alt=''></img>
 								</div>
-								<h3 class='reason__title'>Наш офис</h3>
+								<h3 className='reason__title'>Наш офис</h3>
 								<p className='text'>
 									Работаем в Москве: сообщите адрес - наши специалисты приедут к
 									вам.
 								</p>
 							</div>
 
-							<div class='reason'>
-								<div class='reason__icon'>
+							<div className='reason'>
+								<div className='reason__icon'>
 									<img src={MainIconFour} alt=''></img>
 								</div>
-								<h3 class='reason__title'>Наши обязанности</h3>
+								<h3 className='reason__title'>Наши обязанности</h3>
 								<p className='text'>
 									Услуги «под ключ». Мы берем на себя все заботы, чтобы вы могли
 									сосредоточиться на главном.
@@ -119,4 +119,4 @@ function PageMain() {
 	)
 }
 
-export default PageMain
+export default MainPage

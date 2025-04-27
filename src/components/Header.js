@@ -1,9 +1,8 @@
 import React from 'react'
-import logo from './Image/logo.png'
-import user from './Image/User.png'
+import logo from '../Image/logo.png'
+import user from '../Image/User.png'
 import { Link } from 'react-router-dom'
-import './Styles/header.css'
-
+import '../Styles/header.css'
 
 function Header () {
     return (
@@ -14,13 +13,13 @@ function Header () {
 				</div>
 				<div className='buttons'>
 					<button>
-						<Link to='/Kalkulate'>Калькулятор</Link>
+						<Link to='/calculator'>Калькулятор</Link>
 					</button>
 					<button>
-						<Link to='/ClientFirstPage'>Для физ. лиц</Link>
+						<Link to='/LegalClientsPage'>Для юр. лиц</Link>
 					</button>
 					<button>
-						<Link to='/ClientSecondPage'>Для юр. лиц</Link>
+						<Link to='/PhysicalClientsPage'>Для физ. лиц</Link>
 					</button>
 				</div>
 				<button className='User'>

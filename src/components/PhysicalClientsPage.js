@@ -1,24 +1,25 @@
 import React from 'react'
-import './Styles/ClientFirstPage.css'
-import FirstImage from './Image/FirstUrUser.png'
-import SecondImage from './Image/SecondUrUser.png'
-import ThirdthImage from './Image/TrithUrUser.png'
-import FourthImage from './Image/FourthUrUser.png'
-import FistImage from './Image/FifsUrUser.png'
-import SixthImage from './Image/SixUrUser.png'
-function ClientSecondPage() {
+import '../Styles/ClientFirstPage.css'
+import FirstImage from '../Image/FirstUrUser.png'
+import SecondImage from '../Image/SecondUrUser.png'
+import ThirdthImage from '../Image/TrithUrUser.png'
+import FourthImage from '../Image/FourthUrUser.png'
+import FistImage from '../Image/FifsUrUser.png'
+import SixthImage from '../Image/SixUrUser.png'
+
+function PhysicalClientsPage() {
 	return (
 		<div>
-			<div class='SecondContainer'>
-				<section class='services-grid'>
+			<div className='SecondContainer'>
+				<section className='services-grid'>
 					<div className='block-with-service-block'>
-						<div class='service-block'>
+						<div className='service-block'>
 							<img src={FirstImage} alt='Регистрация и ликвидация'></img>
 							<h3>Разрешение жилищных споров.</h3>
 							<p>Помощь в решении жилищных вопросов любой сложности.</p>
 						</div>
 
-						<div class='service-block'>
+						<div className='service-block'>
 							<img
 								src={SecondImage}
 								alt='Разработка и экспертиза договоров'
@@ -26,7 +27,7 @@ function ClientSecondPage() {
 							<h3>Защита прав потребителей.</h3>
 							<p>Отстоим ваши права при покупке товаров и услуг.</p>
 						</div>
-						<div class='service-block'>
+						<div className='service-block'>
 							<img
 								src={ThirdthImage}
 								alt='Представление интересов в судах'
@@ -36,7 +37,7 @@ function ClientSecondPage() {
 						</div>
 					</div>
 					<div className='block-with-service-block'>
-						<div class='service-block'>
+						<div className='service-block'>
 							<img
 								src={FourthImage}
 								alt='Консультирование по вопросам всех видов прав'
@@ -45,7 +46,7 @@ function ClientSecondPage() {
 							<p>Вернем ваши деньги в кратчайшие сроки.</p>
 						</div>
 
-						<div class='service-block'>
+						<div className='service-block'>
 							<img
 								src={FistImage}
 								alt='Защита интеллектуальной собственности'
@@ -54,7 +55,7 @@ function ClientSecondPage() {
 							<p>Квалифицированная помощь и представительство в суде.</p>
 						</div>
 
-						<div class='service-block'>
+						<div className='service-block'>
 							<img
 								src={SixthImage}
 								alt='Юридический аудит деятельности компании'
@@ -65,7 +66,7 @@ function ClientSecondPage() {
 					</div>
 				</section>
 
-				<section class='main-content-for-person'>
+				<section className='main-content-for-person'>
 					<h2>Для чего существует наша организация?</h2>
 					<p>
 						Столкнулись с правовой проблемой и не знаете, как поступить? Nova
@@ -107,34 +108,10 @@ function ClientSecondPage() {
 							целям.
 						</li>
 					</ul>
-
-					<h2>Почему стоит выбрать Nova:</h2>
-					<ul>
-						<li>
-							Опыт и профессионализм: Наша команда состоит из опытных юристов с
-							глубоким знанием законодательства и практическим опытом ведения
-							бизнеса.
-						</li>
-						<li>
-							Оперативность и эффективность: Мы оперативно реагируем на ваши
-							запросы и предлагаем эффективные решения, позволяющие вам
-							экономить время и ресурсы.
-						</li>
-						<li>
-							Прозрачность и открытость: Мы строим доверительные отношения с
-							нашими клиентами, предоставляя им полную информацию о ходе работы
-							и стоимости услуг.
-						</li>
-						<li>
-							Нацеленность на результат: Мы стремимся к тому, чтобы наше
-							сотрудничество приносило вам реальную пользу и способствовало
-							развитию вашего бизнеса.
-						</li>
-					</ul>
 				</section>
 
-				<section class='testimonials-grid'>
-					<div class='testimonial-block'>
+				<section className='testimonials-grid'>
+					<div className='testimonial-block'>
 						<h4>Horizon</h4>
 						<p>
 							Этот сервис просто имба, быстрая и качественная помощь, были сняты
@@ -143,7 +120,7 @@ function ClientSecondPage() {
 						</p>
 					</div>
 
-					<div class='testimonial-block'>
+					<div className='testimonial-block'>
 						<h4>Анон</h4>
 						<p>
 							Имба сервис, накчили избавлчтся от всех проблем двумя путями. 1)
@@ -152,7 +129,7 @@ function ClientSecondPage() {
 						</p>
 					</div>
 
-					<div class='testimonial-block'>
+					<div className='testimonial-block'>
 						<h4>Санёёёёк</h4>
 						<p>
 							Считаю данный сервис прекрасным инструментом в решении если не
@@ -165,4 +142,4 @@ function ClientSecondPage() {
 	)
 }
 
-export default ClientSecondPage
+export default PhysicalClientsPage

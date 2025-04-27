@@ -1,23 +1,23 @@
 import React from 'react'
-import logo from './Image/logo.png'
-import Vk from './Image/Vk.png'
-import Tg from './Image/Tg.png'
-import './Styles/footer.css'
+import logo from '../Image/logo.png'
+import Vk from '../Image/Vk.png'
+import Tg from '../Image/Tg.png'
+import '../Styles/footer.css'
 
 function Footer() {
 	return (
-		<footer class='footer'>
-			<div class='footer-container'>
-				<div class='midle_column'>
-					<div class='logo'>
+		<footer className='footer'>
+			<div className='footer-container'>
+				<div className='midle_column'>
+					<div className='logo'>
 						<img src={logo} alt='Nova Logo'></img>
 						<p className='textLogo'>Nova</p>
 					</div>
 					<p>Юридическая фирма</p>
 				</div>
 
-				<div class='small_column'>
-					<ul class='footer-links'>
+				<div className='small_column'>
+					<ul className='footer-links'>
 						<li>
 							<a href='https://github.com/pixtu376/Labs'>
 								<p>О компании</p>
@@ -41,8 +41,8 @@ function Footer() {
 					</ul>
 				</div>
 
-				<div class='column'>
-					<div class='contact-info'>
+				<div className='column'>
+					<div className='contact-info'>
 						<div>
 							<p>E-mail: NeObman@gmail.com</p>
 						</div>
@@ -57,8 +57,8 @@ function Footer() {
 					</div>
 				</div>
 
-				<div class='midle_column'>
-					<div class='phone-numbers'>
+				<div className='midle_column'>
+					<div className='phone-numbers'>
 						<p>+7 800 555 35 35</p>
 						<p>Номер по Москве</p>
 						<p>+7 800 555 36 52</p>
